@@ -36,11 +36,15 @@ npm run start
 ## Configurating
 1. Customize Keywords
     You can customize the bot's keywords by modifying the following line in index.js:
+```bash
     const keywords = ['halo', 'hello', 'bro']; // Replace with your own keywords
+```
 
 2. Customize Reply Text
     You can modify the reply message the bot sends by editing the following line:
-    await sock.sendMessage(sender, { text: 'apa? chat dibalas ama bot, mohon rechat jika 5 menit tidak dibalas.' });
+```bash 
+await sock.sendMessage(sender, { text: 'apa? chat dibalas ama bot, mohon rechat jika 5 menit tidak dibalas.' });
+```
 
 3. then u open whatsapp > Go to Settings > Linked Devices > Link a Device > scan.
 
